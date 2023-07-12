@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> contact form </title>
+</head>
+
+<body>
+    <form id="form">
+        <!--name tags-->
+        <lable> Name:</lable>
+        <input type="name" placeholder="Ex:john" id="name"><br><br>
+        <!-- Email tags-->
+        <label>Email:</label>
+        <input type="email" placeholder="abcd@gmail.com" id="email"><br><br>
+        <!-- phone tags-->
+        <lable> Phone: </lable>
+        <input type="text number" placeholder="1234567890" maxlength="10px" id="phone"><br><br>
+        <!--website tags-->
+        <label> Website: </label>
+        <input type="text" id="website"><br><br>
+        <!--contact phone-->
+        <lable> Contact Phone:</lable>
+        <input type="text number" placeholder="1234567890" maxlength="10px" id="Contact phone"><br><br>
+        <!--Contact Email-->
+        <lable> Contact Email: </lable>
+        <input type="text number" placeholder="abcd@gmail.com" id="Contact email"><br><br>
+        <!--Notes-->
+        <label> Notes: </label>
+        <input type="text area" id="notes"> <br><br>
+        <!--Type-->
+        
+            <lable> Type:</lable><br>
+    
+    
+            <lable> Posibble Values </lable> <input type="radio" name="type" id="Business" value="posibble value">  <br>
+            <label> Small Business </label> <input type="radio" name="type" id="Business" value="small Business"> <br>
+            <lable> Enterprise </lable> <input type="radio" name="type" id="Business" value="enterprice"> <br>
+            <lable> Entrepreneur </lable> <input type="radio" name="type" id="Business" value="Entrepreneur"> <br><br>
+        
+        <!--Category-->
+        <div>   
+            <label> Category</label> <br><br>
+            <select multiple id="Category">
+                <option>
+                    <selected>Clothes</selected>
+                </option>
+                <option > Toys </option> 
+                <option>Groceries</option>   
+                <option> Electronics</option> 
+                <option> Digital</option>
+            </select><br><br>
+        </div>
+        <!--comission percentage -->
+        <label>Comission Percentage </label><input type="number" id="Comission Percentage"><br><br>
+        <!--Active From-->
+        <lable> Active Form </lable><input type="date" id="Active Form"><br><br>
+        <!--logo-->
+        <lable> Logo </lable> <input type="file" id="logo"><br><br>
+        <!--Critical Account-->
+        <lable> Critical Account </lable> <input type="checkbox" id="Critical Account"><br><br>
+        <!--Payment Options-->
+        <div>
+            <label> Payment Options:</label><br>
+            <lable> Cash on delivery</lable><input type="checkbox" name="payment" value="Cash on delivery"><br><br>
+            <lable> UPI</lable> <input type="checkbox" name="payment" value="UPI"><br><br>
+            <lable> Card Payment</lable> <input type="checkbox" name="payment" value = "Card Payment"><br><br>
+        </div>
+        <div id="button-row">
+            <div class="button"><button type="button" id="submit" onclick="SubmitEvent()">submit</button></div>
+        </div>
+        <div class="button"><button type="reset" id="reset"> reset </button>
+        </div>
+
+
+    </form>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
