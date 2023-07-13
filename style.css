@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#name{
+    padding: 15px!important;
+    
+}
+
+input{
+    color: rgb(59, 35, 123);
+}
+/* .name class */
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(14, 168, 188);
+    padding: 300px;
+    
+}
+form{
+
+    
+    width: 1000px;
+    border-radius: 50px;
+    height: 1000px;
+    padding: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+    margin: 100px;
+    color: rgb(248, 5, 5);
+
+}
+
+div{
+    color: brown;
+}
+button#submit {
+    background: rgb(21, 214, 21);
+}
+
+button#reset {
+    background: red;
+}
